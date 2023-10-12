@@ -14,23 +14,15 @@
             <h1><img class="" :src="require('@/assets/assets/images/logo.png')"></h1>
           </div>
           <div class="menu-items">
-            <ul id="links">
-              <router-link to="/" tag="li" exact>Home</router-link>
-              <hr>
-              <router-link to="/login" tag="li" exact>LogIn</router-link>
-              <hr>
-              <router-link to="/shop_info" tag="li" exact>Shop Info</router-link>
-              <hr>
-              <router-link to="/about" tag="li" exact>About</router-link>
-              <hr>
-              <router-link to="/manage" tag="li" exact>Manage</router-link>
-            </ul>
+              <ul id="links"><router-link to="/" tag="li" exact>Home</router-link></ul>
+              <ul id="links"><router-link to="/login" tag="li" exact>LogIn</router-link></ul>
+              <ul id="links"><router-link to="/shop_info" tag="li" exact>Shop Info</router-link></ul>
+              <ul id="links"><router-link to="/about" tag="li" exact>About</router-link></ul>
+              <ul id="links"><router-link to="/manage" tag="li" exact>Manage</router-link></ul>
           </div>
         </div>
       </div>
     </nav>
-
-
     <div>
       <div class="hero">
         <div class="container">
