@@ -15,7 +15,7 @@ import sample from"@/components/sample.vue";
 import Top from"@/components/HomeInfo/Top.vue";
 export default {
   components: {
-    sample,Top
+    sample,Top 
   }
 };
 </script>
