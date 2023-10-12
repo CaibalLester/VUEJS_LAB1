@@ -14,9 +14,9 @@ import man from '../components/manage/man.vue';
     methods: {
         loadScripts() {
             const scriptUrls = [
-            'manpub/vendors/chart.js/Chart.min.js',
-            'manpub/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js',
-            'manpub/vendors/progressbar.js/progressbar.min.js',
+            // 'manpub/vendors/chart.js/Chart.min.js',
+            // 'manpub/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js',
+            // 'manpub/vendors/progressbar.js/progressbar.min.js',
             'manpub/js/off-canvas.js',
             'manpub/js/hoverable-collapse.js',
             'manpub/js/template.js',
