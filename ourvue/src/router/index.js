@@ -4,7 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import LogInPage from '../views/logIn.vue'
 import AboutPage from '../views/aboutUs.vue'
 import shop_info from '../views/shop_info.vue'
-
+import ManagePage from '../views/manage.vue'
 import Home from '../Home.vue'
 
 
@@ -28,6 +28,12 @@ const routes = [
     path: '/shop_info',
     name: 'shop_info',
     component: shop_info
+  }
+  ,
+  {
+    path: '/manage',
+    name: 'manage',
+    component: ManagePage
   }
 ]
 const router = createRouter({

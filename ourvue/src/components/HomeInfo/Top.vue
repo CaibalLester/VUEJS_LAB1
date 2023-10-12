@@ -22,6 +22,8 @@
               <router-link to="/shop_info" tag="li" exact>Shop Info</router-link>
               <hr>
               <router-link to="/about" tag="li" exact>About</router-link>
+              <hr>
+              <router-link to="/manage" tag="li" exact>Manage</router-link>
             </ul>
           </div>
         </div>
